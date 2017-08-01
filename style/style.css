@@ -7,7 +7,11 @@
   padding: 0;
   margin: 0;
   background-image: url('../img/background-site.jpg');
-background-size: cover;
+  background-size: cover;
+}
+
+a {
+	text-decoration: none;
 }
 
 #content {
@@ -15,10 +19,129 @@ background-size: cover;
 	margin: 0 auto;
 }
 
+#contact-info {
+	height: 29px;
+	padding-top: 5px;
+	/* background: orange; */
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+
+#contact-info a p {
+	color: #fff;
+}
+
+.contact-right {
+	display: flex;
+}
+
+.pseudo-after p::after {
+	content: " | ";
+	padding: 5px;
+}
+
+#logos-and-more {
+	display: flex;
+	justify-content: space-between;
+	/* background: green; */
+}
+
+.header-logo  {
+	height: 64px;
+	width: auto;
+}
+
+.search {
+	/* background: maroon; */
+ 	display: flex;
+   	align-items: center;
+}
+
+.search input {
+	height: 24px;
+    	width: 266px;
+	border: none;
+	border-radius: 7px;
+	outline: none;
+}
+
+.search img {
+	height: 15px;
+	width: auto;
+	position: relative;
+	left: -29px;
+	top: 3px;
+}
+
+.honestly-im-not-sure {
+	height: 21px;
+    	width: 287px;
+}
+
+.cart-container {
+	/* background: #000; */
+	display: flex;
+	align-items: center;
+}
+
+.cart {
+	display: flex;
+	align-items: center;
+	border-radius: 7px;
+	padding: 4px 4px 1px 0px;
+	background: #74a2bc;
+}
+
+.cart-left p {
+	color: #fff;
+	padding: 0px 21px;
+}
+
 #main-content {
-	background: #000;
+	/* background: #000; */
 	color: #fff;
 	width: 767px;
 	height: 680px;
   	margin: 0 auto;
+}
+
+.nav-items {
+	display: flex;
+    	justify-content: space-around;
+    	padding: 20px 50px;
+}
+
+.nav-items a {
+	color: #065683;
+}
+
+.nav-items li:nth-child(n+1):nth-child(-n+7)::after {
+	content:  " ";
+	background: url("../img/dot.png") no-repeat;
+	width: 5px;
+	height: 5px;
+	margin-left: 5px;
+	position: absolute;
+	top: 122px;
+}
+
+#front-cats {
+	background: #000;
+	width: 98%;
+	height: 613px;
+	margin: 0 auto;
+}
+
+.full-width-single img {
+	width: 100%;
+}
+
+.two-image {
+	display: flex;
+}
+
+.two-image img {
+	width: 47%;
+	height: auto;
 }
