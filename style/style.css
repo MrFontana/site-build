@@ -19,6 +19,12 @@ a {
 	margin: 0 auto;
 }
 
+/*
+=================================
+	HEADER
+=================================
+*/
+
 #contact-info {
 	height: 29px;
 	padding-top: 5px;
@@ -102,18 +108,26 @@ a {
 	/* background: #000; */
 	color: #fff;
 	width: 767px;
-	height: 680px;
+	height: 682px;
   	margin: 0 auto;
 }
+
+
+/*
+=================================
+	MAIN CONTENT
+=================================
+*/
 
 .nav-items {
 	display: flex;
     	justify-content: space-around;
-    	padding: 20px 50px;
+    	padding: 13px 50px;
 }
 
 .nav-items a {
 	color: #065683;
+	font-size: small;
 }
 
 .nav-items li:nth-child(n+1):nth-child(-n+7)::after {
@@ -121,15 +135,15 @@ a {
 	background: url("../img/dot.png") no-repeat;
 	width: 5px;
 	height: 5px;
-	margin-left: 5px;
+	margin-left: 12px;
 	position: absolute;
-	top: 122px;
+	top: 115px;
 }
 
 #front-cats {
-	background: #000;
+	/* background: #000; */
 	width: 98%;
-	height: 613px;
+	height: 625px;
 	margin: 0 auto;
 }
 
@@ -139,9 +153,157 @@ a {
 
 .two-image {
 	display: flex;
+	justify-content: space-between;
+	padding: 5px 0 9px 0;
 }
 
 .two-image img {
 	width: 49.5%;
  	height: 100%;
+}
+
+.pad-me-amidala {
+	padding-bottom: 5px;
+}
+
+.round-em img{
+	border-radius: 5px;
+	box-shadow: 0 0 4px #9E9E9E;
+}
+
+.four {
+	display: flex;
+	justify-content: space-between;
+}
+
+.four img {
+	width: 182px;
+	height: 100%;
+}
+
+/*
+=================================
+	FOOTER
+=================================
+*/
+
+footer {
+	border-top: 1px solid #e2e2e2;
+	padding: 19px 0px;
+	margin: 31px 9px;
+}
+
+footer a {
+	color: #505050;
+	font-size: small;
+}
+
+footer h2 {
+	color: #065683;
+	font-weight: 400;
+	padding-bottom: 19px;
+}
+
+.footer-ul li {
+    padding-bottom: 3px;
+}
+
+#footer-left {
+	width: 48.5%;
+	display: flex;
+  	justify-content: space-between;
+}
+
+.flex-me, .footer-flexed {
+	display: flex;
+}
+
+.footer-flexed {
+    padding-bottom: 19px;
+}
+
+#footer-right {
+	width: 48.5%;
+
+}
+
+#footer-right p {
+	color: #505050;
+	font-size: small;
+}
+
+.footer-input {
+    	padding: 7px 0;
+}
+
+.footer-input button {
+	height: 31px;
+	width: 105px;
+	border-radius: 4px;
+	outline: none;
+}
+
+.footer-input input {
+	height: 25px;
+	width: 213px;
+	border-radius: 6px;
+	outline: none;
+}
+
+.social-icons img {
+	padding-right: 2px;
+}
+
+.footer-logos {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 19px 0;
+	justify-content: center;
+}
+
+.footer-logos img {
+	padding-right: 9px;
+
+}
+
+.button {
+	border:1px solid #108cce;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size:12px;
+	font-family:arial, helvetica, sans-serif;
+	padding: 8px 10px 10px 10px;
+	text-decoration:none;
+	display:inline-block;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+	font-weight:bold; color: #FFFFFF;
+	background-color: #29A9EE;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#29A9EE), to(#0b8ed5));
+	 background-image: -webkit-linear-gradient(top, #29A9EE, #0b8ed5);
+	 background-image: -moz-linear-gradient(top, #29A9EE, #0b8ed5);
+	 background-image: -ms-linear-gradient(top, #29A9EE, #0b8ed5);
+	 background-image: -o-linear-gradient(top, #29A9EE, #0b8ed5);
+	 background-image: linear-gradient(to bottom, #29A9EE, #0b8ed5);
+	 filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#29A9EE, endColorstr=#0b8ed5);
+}
+
+.button:hover{
+	 border:1px solid #0d6fa4;
+	 background-color: #118fd3;
+	 background-image: -webkit-gradient(linear, left top, left bottom, from(#118fd3), to(#086ea5));
+	 background-image: -webkit-linear-gradient(top, #118fd3, #086ea5);
+	 background-image: -moz-linear-gradient(top, #118fd3, #086ea5);
+	 background-image: -ms-linear-gradient(top, #118fd3, #086ea5);
+	 background-image: -o-linear-gradient(top, #118fd3, #086ea5);
+	 background-image: linear-gradient(to bottom, #118fd3, #086ea5);
+	 filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#118fd3, endColorstr=#086ea5);
+}
+
+#copyright {
+	color: #505050;
+    	font-size: 13px;
+    	padding: 19px 0;
+    	line-height: 1.5;
+    	text-align: center;
 }
