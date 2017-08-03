@@ -108,7 +108,6 @@ a {
 	/* background: #000; */
 	color: #fff;
 	width: 767px;
-	height: 682px;
   	margin: 0 auto;
 }
 
@@ -306,4 +305,107 @@ footer h2 {
     	padding: 19px 0;
     	line-height: 1.5;
     	text-align: center;
+}
+
+/*
+=================================
+	CTGY PAGE
+=================================
+*/
+
+.center {
+	width: 100%;
+	text-align: center;
+}
+
+.center img {
+	width: 98%;
+}
+
+/* #cat-tree {
+	width: 243px;
+ 	padding: 7px 7px;
+ 	margin: 8px;
+} */
+
+/*.nest-of-cats {
+	background: #f2f2f2;
+	border-radius: 6px;
+	padding: 8px 0 25px 20px;
+}*/
+
+.parent {
+	color: #065683;
+	background:  #f2f2f2;
+	border-bottom: 1px solid #fff;
+}
+
+.child {
+	color: #404040;
+	font-size: small;
+	background: #f2f2f2;
+}
+
+#ctgy-content > div > div.cat-tree > ul > ul > a > li {
+	padding-left: 41px;
+}
+
+.parent, .child {
+	padding: 16px 0 14px 0;
+}
+
+a:hover li.parent, a:active li.parent  {
+	font-weight: 600;
+}
+
+a:hover li.child  {
+	color: #48a5d5;
+	text-decoration: underline!important;
+}
+
+a:active li.child  {
+	color: #48a5d5;
+	text-decoration: underline!important;
+}
+
+.cat-tree ul li {
+	padding-left: 20px;
+}
+
+#ctgy-content {
+	background: #000;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.ctgy-item-container {
+	width: 98%;
+	background: #074;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cat-tree {
+	width: 200px;
+}
+
+.prod-container {
+	background: #638;
+	width: 544px;
+}
+
+.prod-container p {
+	font-size: 10px;
+	padding: 16px 0;
+}
+
+.ctgy-hero {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.ctgy-header {
+	display: flex;
+	justify-content: space-between;
 }
